@@ -3,23 +3,22 @@
   "name": "Duolingo Black Theme",
   "version": "0.0.1",
   "description": "No desc.",
-  "icons": 
-  {
-    "128" : "Images/logo.png"
+  "icons": {
+    "128": "Images/logo.png"
   },
   "content_scripts": [
     {
-      "matches": ["https://www.duolingo.com/learn"],
-      "css": ["styleMain.css"]
-    },
-    {
-      "matches": ["https://www.duolingo.com/skill/*"],
-      "css": ["styleLessons.css"]
-    },
-    {
-      "matches": ["https://www.duolingo.com/stories"],
-      "css" : ["styleStories.css"]
+      "matches": [
+        "https://www.duolingo.com/learn",
+        "https://www.duolingo.com/stories",
+        "https://www.duolingo.com/skill/*"
+      ],
+      "css": [
+        "style.css"
+      ]
     }
   ],
-  "permissions": ["storage","browsingData"]
+  "permissions": [
+    "storage"
+  ]
 }

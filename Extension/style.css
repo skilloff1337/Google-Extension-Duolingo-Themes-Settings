@@ -1,0 +1,87 @@
+﻿:root{
+    --BackGroundColor: #607d8b;
+    --TextColor: white;
+    --TextHeaderColor: #a9ddfd;
+    --SelectedItem: #69b2c8;
+}
+body {
+    background-color: var(--BackGroundColor) !important;
+
+}
+/*Main page*/
+._3ZJK8 {
+    background-color: var(--BackGroundColor) !important;
+}
+._3g2C1{
+    background-color: var(--BackGroundColor) !important;
+}
+._3Gj5_ {
+    background-color: var(--BackGroundColor) !important;
+}
+._3ZuGY {
+    background-color: var(--BackGroundColor) !important;
+}
+._3QwaZ  {
+    background-color: var(--SelectedItem) !important;
+}
+.yXp5g:hover {
+    background-color: var(--SelectedItem) !important;
+}
+._3esGm {
+    background-color: #66aac6 !important; ;
+}
+/*Texts color*/
+._1LpFA{
+    color: var(--TextColor) !important;
+}
+._288DZ{
+    color: var(--TextColor) !important;
+}
+._3cvJx {
+    color: var(--TextColor) !important;
+}
+
+
+/*Lessons*/
+._399cc{
+    background-color: var(--BackGroundColor) !important;
+}
+._1hEOp{
+    background-color: var(--BackGroundColor) !important;
+}
+/*Texts color*/
+._3cDk3{
+    color: var(--TextColor) !important;
+}
+
+/*Stories*/
+
+._1zsgz {
+    background-color: var(--BackGroundColor) !important;
+}
+._1kJpR{
+    background-color: var(--BackGroundColor) !important;
+}
+._1bYhI{
+    background-color: var(--BackGroundColor) !important;
+}
+._1x7If, ._2_Pxj{
+    background-color: var(--BackGroundColor) !important;
+}
+._2nLk_
+{
+    background-color: var(--BackGroundColor) !important;
+}
+._1lgsd
+{
+    background-color: var(--BackGroundColor) !important;
+}
+/*Texts color*/
+._3tLz5{
+    color: var(--TextColor) !important;
+}
+._1eZU8{
+    color: var(--TextHeaderColor) !important;
+}
+
+
