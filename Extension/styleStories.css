@@ -1,0 +1,37 @@
+﻿:root{
+    --BackGroundColor: #607d8b;
+    --TextColor: white;
+    --TextHeaderColor: #a9ddfd;
+    --SelectedItem: #69b2c8;
+}
+body{
+    background-color: var(--BackGroundColor) !important;
+}
+
+._1zsgz {
+    background-color: var(--BackGroundColor) !important;
+}
+._1kJpR{
+    background-color: var(--BackGroundColor) !important;
+}
+._1bYhI{
+    background-color: var(--BackGroundColor) !important;
+}
+._1x7If, ._2_Pxj{
+    background-color: var(--BackGroundColor) !important;
+}
+._2nLk_
+{
+    background-color: var(--BackGroundColor) !important;
+}
+._1lgsd
+{
+    background-color: var(--BackGroundColor) !important;
+}
+    /*Texts color*/
+._3tLz5{
+    color: var(--TextColor) !important;
+}
+._1eZU8{
+    color: var(--TextHeaderColor) !important;
+}

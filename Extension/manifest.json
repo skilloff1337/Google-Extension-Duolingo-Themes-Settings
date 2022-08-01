@@ -15,7 +15,11 @@
     {
       "matches": ["https://www.duolingo.com/skill/*"],
       "css": ["styleLessons.css"]
+    },
+    {
+      "matches": ["https://www.duolingo.com/stories"],
+      "css" : ["styleStories.css"]
     }
   ],
-  "permissions": ["storage"]
+  "permissions": ["storage","browsingData"]
 }
