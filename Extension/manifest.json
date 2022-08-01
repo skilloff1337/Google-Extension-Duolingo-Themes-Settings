@@ -1,0 +1,17 @@
+﻿{
+  "manifest_version": 3,
+  "name": "Duolingo Black Theme",
+  "version": "0.0.1",
+  "description": "No desc.",
+  "icons": 
+  {
+    "128" : "Images/logo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.duolingo.com/learn"],
+      "css": ["styleMain.css"]
+    }
+  ],
+  "permissions": ["storage"]
+}
