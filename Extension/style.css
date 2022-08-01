@@ -107,11 +107,12 @@ body {
 ._1azKr {
     background-color: var(--BackGroundColor) !important;
 }
-._2PVaI{
+
+._2PVaI {
     background-color: var(--BackGroundColor) !important;
 }
 
-    /*Texts*/
+/*Texts*/
 ._2QQA_ {
     color: var(--TextColor) !important;
 }
@@ -119,9 +120,56 @@ body {
 ._3g6lk {
     color: var(--TextHeaderColor) !important;
 }
+
 ._2ztBJ {
     color: var(--TextColor) !important;
 }
 
+/*Profile*/
+._3oNvD {
+    background-color: var(--BackGroundColor) !important;
+}
+
+._3Pm6e {
+    background-color: var(--SelectedItem) !important;
+}
+
+._1jKLW {
+    background-color: var(--BackGroundColor) !important;
+}
+
+._2hN48 {
+    background-color: var(--SelectedItem) !important;
+}
+
+._1VA3z {
+    background-color: var(--BackGroundColor) !important;
+}
+
+._3-9p5, .k6hKX {
+    background-color: var(--BackGroundColor) !important;
+}
+
+._1HOwy {
+    background-color: var(--BackGroundColor) !important;
+}
+
+.hOdmy {
+    background-color: var(--BackGroundColor) !important;
+}
+
+._10T9U {
+    background-color: var(--BackGroundColor) !important;
+}
+._2gk65{
+    background-color: var(--BackGroundColor) !important;
+}
+    /*Texts*/
+._2nvdt {
+    color: var(--TextColor) !important;
+}
+._2Ce44{
+    color: var(--TextColor) !important;
+}
 
 
