@@ -1,0 +1,19 @@
+﻿:root{
+    --BackGroundColor: #607d8b;
+    --TextColor: white;
+    --SelectedItem: #69b2c8;
+}
+body{
+    background-color: var(--BackGroundColor) !important;
+}
+._399cc{
+    background-color: var(--BackGroundColor) !important;
+}
+._1hEOp{
+    background-color: var(--BackGroundColor) !important;
+}
+
+/*Texts color*/
+._3cDk3{
+    color: var(--TextColor) !important;
+}
