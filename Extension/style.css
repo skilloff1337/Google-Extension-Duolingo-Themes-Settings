@@ -39,7 +39,6 @@ body {
     background-color: #66aac6 !important;;
 }
 
-/*Texts color*/
 ._1LpFA {
     color: var(--TextColor) !important;
 }
@@ -62,7 +61,6 @@ body {
     background-color: var(--BackGroundColor) !important;
 }
 
-/*Texts color*/
 ._3cDk3 {
     color: var(--TextColor) !important;
 }
@@ -93,7 +91,6 @@ body {
     background-color: var(--BackGroundColor) !important;
 }
 
-/*Texts color*/
 ._3tLz5 {
     color: var(--TextColor) !important;
 }
@@ -112,7 +109,6 @@ body {
     background-color: var(--BackGroundColor) !important;
 }
 
-/*Texts*/
 ._2QQA_ {
     color: var(--TextColor) !important;
 }
@@ -161,25 +157,43 @@ body {
 ._10T9U {
     background-color: var(--BackGroundColor) !important;
 }
-._2gk65{
+
+._2gk65 {
     background-color: var(--BackGroundColor) !important;
 }
-    /*Texts*/
+
 ._2nvdt {
     color: var(--TextColor) !important;
 }
-._2Ce44{
+
+._2Ce44 {
     color: var(--TextColor) !important;
 }
 
 /*Settings*/
-
-/*Texts*/
-._3oNS9{
+._3oNS9 {
     color: var(--TextColor) !important;
 }
-._2KvKK{
+
+._2KvKK {
     color: var(--TextColor) !important;
+}
+
+/*Words*/
+._2nHL0 {
+    background-color: var(--BackGroundColor) !important;
+}
+
+.g_Zzj {
+    color: var(--TextColor) !important;
+}
+
+tr:hover {
+    background-color: var(--SelectedItem) !important;
+}
+
+._2bk_b th {
+    background-color: var(--BackGroundColor) !important;
 }
 
 
