@@ -1,56 +1,69 @@
-﻿:root{
+﻿:root {
     --BackGroundColor: #607d8b;
     --TextColor: white;
     --TextHeaderColor: #a9ddfd;
     --SelectedItem: #69b2c8;
 }
+
 body {
     background-color: var(--BackGroundColor) !important;
 
 }
+
 /*Main page*/
 ._3ZJK8 {
     background-color: var(--BackGroundColor) !important;
 }
-._3g2C1{
+
+._3g2C1 {
     background-color: var(--BackGroundColor) !important;
 }
+
 ._3Gj5_ {
     background-color: var(--BackGroundColor) !important;
 }
+
 ._3ZuGY {
     background-color: var(--BackGroundColor) !important;
 }
-._3QwaZ  {
+
+._3QwaZ {
     background-color: var(--SelectedItem) !important;
 }
+
 .yXp5g:hover {
     background-color: var(--SelectedItem) !important;
 }
+
 ._3esGm {
-    background-color: #66aac6 !important; ;
+    background-color: #66aac6 !important;;
 }
+
 /*Texts color*/
-._1LpFA{
+._1LpFA {
     color: var(--TextColor) !important;
 }
-._288DZ{
+
+._288DZ {
     color: var(--TextColor) !important;
 }
+
 ._3cvJx {
     color: var(--TextColor) !important;
 }
 
 
 /*Lessons*/
-._399cc{
+._399cc {
     background-color: var(--BackGroundColor) !important;
 }
-._1hEOp{
+
+._1hEOp {
     background-color: var(--BackGroundColor) !important;
 }
+
 /*Texts color*/
-._3cDk3{
+._3cDk3 {
     color: var(--TextColor) !important;
 }
 
@@ -59,29 +72,56 @@ body {
 ._1zsgz {
     background-color: var(--BackGroundColor) !important;
 }
-._1kJpR{
+
+._1kJpR {
     background-color: var(--BackGroundColor) !important;
 }
-._1bYhI{
+
+._1bYhI {
     background-color: var(--BackGroundColor) !important;
 }
-._1x7If, ._2_Pxj{
+
+._1x7If, ._2_Pxj {
     background-color: var(--BackGroundColor) !important;
 }
-._2nLk_
-{
+
+._2nLk_ {
     background-color: var(--BackGroundColor) !important;
 }
-._1lgsd
-{
+
+._1lgsd {
     background-color: var(--BackGroundColor) !important;
 }
+
 /*Texts color*/
-._3tLz5{
+._3tLz5 {
     color: var(--TextColor) !important;
 }
-._1eZU8{
+
+._1eZU8 {
     color: var(--TextHeaderColor) !important;
 }
+
+/*Shop*/
+
+._1azKr {
+    background-color: var(--BackGroundColor) !important;
+}
+._2PVaI{
+    background-color: var(--BackGroundColor) !important;
+}
+
+    /*Texts*/
+._2QQA_ {
+    color: var(--TextColor) !important;
+}
+
+._3g6lk {
+    color: var(--TextHeaderColor) !important;
+}
+._2ztBJ {
+    color: var(--TextColor) !important;
+}
+
 
 
