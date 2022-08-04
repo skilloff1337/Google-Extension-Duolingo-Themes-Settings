@@ -1,10 +1,10 @@
 ﻿{
   "manifest_version": 3,
-  "name": "Duolingo Black Theme",
-  "version": "0.0.1",
-  "description": "No desc.",
+  "name": "Duolingo Themes Settings (DTS)",
+  "version": "1.0.0",
+  "description": "Duolingo Themes Settings - This is an extension that will allow you to change the color scheme on the Duolingo.com website to pre-made ones and more!",
   "icons": {
-    "128": "Images/logo.png"
+    "128": "Images/duo.png"
   },
   "content_scripts": [
     {
@@ -15,7 +15,7 @@
   ],
   "permissions": ["storage"],
   "action": {
-    "default_title": "Duolingo themes",  
+    "default_title": "Duolingo Themes Settings (DTS)",  
     "default_popup": "Popup.html"  
   }
 }
