@@ -23,6 +23,8 @@ function setBackGroundColor() {
                     setProperty('#4a7e4a', 'white', 'black', '#37bc8b')
                 } else if (res.Theme === "yellow") {
                     setProperty('#9ea24c', 'white', '#6c3e19', '#e05436')
+                } else if (res.Theme === "white") {
+                    setProperty('white', '#afafaf', '#3c3c3c', "#d2d4d6")
                 } else { // Dark
                     setProperty('#262626', '#cbcbcb', '#4e89e3', '#484a4e')
                 }
