@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="popupStyle.css" rel="stylesheet" type="text/css"/>
+    <script src="popup.js" async></script>
+</head>
+<body>
+<div>
+    <button class="tablink button" id="settingsButton">Settings</button>
+    <button class="tablink button" id="aboutButton">About</button>
+</div>
+
+<div id="Settings" class="tabcontent">
+    <div class="list">
+        <div class="card"><H1>Welcome to the Duolingo Themes Setting</H1></div>
+        <div class="card">
+            <label for="theme">Choose a theme:</label>
+            <select id="theme" class="form-select form-select-sm">
+                <option value="dark">Dark</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="yellow">Yellow</option>
+            </select></div>
+        <div class="manual">
+            <h3>Manual settings?</h3>
+            <label class="switch">
+                <input type="checkbox" ID="ManualSettings">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <div id="manualSettingsBlock">
+            <p>
+                <label for="bgColor"><b>BackGround color:</b></label>
+                <input id="bgColor" type="text" size="7">
+            </p>
+            <p>
+                <label for="textColor"><b>Text Color:</b></label>
+                <input id="textColor" type="text" size="7">
+            </p>
+            <p>
+                <label for="headerTextColor"><b>Header Text Color:</b></label>
+                <input id="headerTextColor" type="text" size="7">
+            </p>
+            <p>
+                <label for="sellectedItemColor"><b>Sellected Item Color:</b></label>
+                <input id="sellectedItemColor" type="text" size="7">
+            </p>
+        </div>
+        <div style="display: flex">
+            <button class="button" style="width: 50%;margin: 10px;color:white" id="Change">Change value!</button>
+            <button class="button" style="width: 50%;margin: 10px;color:white" id="Reset">Restore default values!</button>
+        </div>
+    </div>
+</div>
+<div id="About" class="tabcontent">
+    <p style="text-align: center">Duolingo Themes Setting <B>(DTS)</B></p>
+    <p>
+        <B> Duolingo Themes Setting </B>- This is an extension that will allow you to change the color scheme on the
+        <a href="https://www.duolingo.com/learn" target="_blank">Duolingo</a>
+        website to ready-made ones. And you can also customize the color scheme for yourself by turning on manual
+        settings.
+    </p>
+    <p>Version: <B>1.0.0 </B></p>
+    <P><B>IMPORTANT!</B> If you find a bug or flaw, or with ideas for improving the product, send your messages to the
+        discord (skilloff#4741) or github issues.</P>
+    <p>If the app turned out to be useful, do not forget to rate it in the extension store.</p>
+    <p>Developer: <B>Skilloff</B></p>
+    <p>My site: <B><a href="https://skilloff.xyz" target="_blank">click</a></B></p>
+    <p>My github: <B><a href="https://github.com/skilloff1337" target="_blank">click</a></B></p>
+    <p>My Duolingo: <B><a href="https://www.duolingo.com/profile/Skilloff1337" target="_blank">click</a></B></p>
+</div>
+<footer>Copyright &copy; <a href="https://skilloff.xyz" target="_blank">Skilloff</a> All rights reserved.</footer>
+</body>
+</html>

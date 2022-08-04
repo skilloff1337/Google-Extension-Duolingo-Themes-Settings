@@ -34,6 +34,15 @@ body {
 .yXp5g:hover {
     background-color: var(--SelectedItem) !important;
 }
+._3f9ou{
+    background-color: var(--BackGroundColor) !important;
+}
+._1dj9x{
+    background-color: var(--BackGroundColor) !important;
+}
+._3M0r3, .GVcJz{
+    background-color: var(--BackGroundColor) !important;
+}
 
 ._3esGm {
     background-color: #66aac6 !important;;
@@ -44,15 +53,50 @@ body {
 }
 
 ._288DZ {
-    color: var(--TextColor) !important;
+    color: var(--TextHeaderColor) !important;
 }
 
 ._3cvJx {
     color: var(--TextColor) !important;
 }
+.Mr3if {
+    color: var(--TextHeaderColor) !important;
+}
+._16nyP{
+    color: var(--TextHeaderColor) !important;
+}
+._3HNwo{
+    color: var(--TextHeaderColor) !important;
+}
+._15-md {
+    color: var(--TextColor) !important;
+}
+._861_w {
+    color: var(--TextColor) !important;
+}
+._3YFg9{
+    color: var(--TextHeaderColor) !important;
+}
+._1_ZCT{
+    color: var(--TextColor) !important;
+}
+._3KnwL{
+    color: var(--TextHeaderColor) !important;
+}
+._34v50{
+    color: var(--TextHeaderColor) !important;
+}
+.YBCQI{
+    color: var(--TextHeaderColor) !important;
+}
+._2lmS1{
+    color: var(--TextHeaderColor) !important;
+}
+.OhXul{
+    color: var(--TextHeaderColor) !important;
+}
 
-
-/*Lessons*/
+    /*Lessons*/
 ._399cc {
     background-color: var(--BackGroundColor) !important;
 }
@@ -64,8 +108,35 @@ body {
 ._3cDk3 {
     color: var(--TextColor) !important;
 }
+.ccZTP {
+    color: var(--TextColor) !important;
+}
+._2b2qG{
+    color: var(--TextColor) !important;
+}
+._3plTW {
+    background: linear-gradient(90deg, #fe9501, hsla(0, 0%, 100%, 0) 10%, hsla(0, 0%, 100%, 0) 90%, #fe9501) !important;
+}
+._2xq2g .-qc09 ._2rUPd{
+    color: var(--TextHeaderColor) !important;
+}
+._3h6Yu{
+    color: var(--TextColor) !important;
+}
+._2LZl6{
+    color: var(--TextHeaderColor) !important;
+}
+._2TPy4{
+    color: var(--TextHeaderColor) !important;
+}
+._1LruX{
+    color: var(--TextHeaderColor) !important;
+}
+.C21s9{
+    color: var(--TextColor) !important;
+}
 
-/*Stories*/
+    /*Stories*/
 
 ._1zsgz {
     background-color: var(--BackGroundColor) !important;
@@ -98,6 +169,24 @@ body {
 ._1eZU8 {
     color: var(--TextHeaderColor) !important;
 }
+._1qdLM {
+    color: var(--TextHeaderColor) !important;
+}
+._2zN81{
+    color: var(--TextHeaderColor) !important;
+}
+._1lJ31{
+    color: var(--TextColor) !important;
+}
+._2igzU._3LUrt{
+    color: var(--TextColor) !important;
+}
+.saQLX{
+    color: var(--TextHeaderColor) !important;
+}
+._2igzU _3LUrt _2P5W7{
+    color: var(--TextHeaderColor) !important;
+}
 
 /*Shop*/
 
@@ -120,8 +209,17 @@ body {
 ._2ztBJ {
     color: var(--TextColor) !important;
 }
+._1gB7x{
+    color: var(--TextHeaderColor) !important;
+}
+._3Vb0n{
+    color: var(--TextHeaderColor) !important;
+}
+._1gdbn{
+    color: var(--TextColor) !important;
+}
 
-/*Profile*/
+    /*Profile*/
 ._3oNvD {
     background-color: var(--BackGroundColor) !important;
 }
@@ -169,8 +267,53 @@ body {
 ._2Ce44 {
     color: var(--TextColor) !important;
 }
+._1cHvI{
+    color: var(--TextHeaderColor) !important;
+}
+.HBGOS{
+    color: var(--TextHeaderColor) !important;
+}
+.k6hKX{
+    color: var(--TextColor) !important;
+}
+.wWY_2{
+    color: var(--TextHeaderColor) !important;
+}
+._1soKk{
+    color: var(--TextColor) !important;
+}
+._3gX7q{
+    color: var(--TextHeaderColor) !important;
+}
+._2gqnn{
+    color: var(--TextHeaderColor) !important;
+}
+._315yA{
+    color: var(--TextColor) !important;
+}
+._1VA3z{
+    color: var(--TextColor) !important;
+}
+.hOdmy{
+    color: var(--TextColor) !important;
+}
+.hOVdl{
+    color: var(--TextHeaderColor) !important;
+}
+.FRf9s{
+    color: var(--TextColor) !important;
+}
+._2f08V:last-child>.hWQ2W{
+    color: var(--TextColor) !important;
+}
+._2GPX6{
+    background-color: var(--BackGroundColor) !important;
+}
+.rPqLh{
+    color: var(--TextHeaderColor) !important;
+}
 
-/*Settings*/
+    /*Settings*/
 ._3oNS9 {
     color: var(--TextColor) !important;
 }
@@ -195,5 +338,42 @@ tr:hover {
 ._2bk_b th {
     background-color: var(--BackGroundColor) !important;
 }
+._1bAdE{
+    color: var(--TextHeaderColor) !important;
+}
+._2KTs5{
+    color: var(--TextHeaderColor) !important;
+}
+._2bk_b th{
+    color: var(--TextHeaderColor) !important;
+}
+
+._1VWgO, ._2iCsL{
+    color: var(--TextColor) !important;
+}
+._1jxVm{
+    color: var(--TextColor) !important;
+}
+
+    /*Stories lessons*/
+
+.xzblA {
+    background-color: var(--BackGroundColor) !important;
+}
+._6tX_H {
+    background-color: var(--BackGroundColor) !important;
+}
+._11VOS{
+    background-color: var(--BackGroundColor) !important;
+}
+._2QKoe {
+    background-color: var(--BackGroundColor) !important;
+}
+
+
+.DvBxn _3IvEG _2YaS- _18W4A xtPuL{
+    background-color: var(--BackGroundColor) !important;
+}
+
 
 

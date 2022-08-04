@@ -8,15 +8,14 @@
   },
   "content_scripts": [
     {
-      "matches": [
-        "https://www.duolingo.com/*"
-      ],
-      "css": [
-        "style.css"
-      ]
+      "matches": ["https://www.duolingo.com/*"],
+      "css": ["style.css"],
+      "js" : ["duolingo.js"]
     }
   ],
-  "permissions": [
-    "storage"
-  ]
+  "permissions": ["storage"],
+  "action": {
+    "default_title": "Duolingo themes",  
+    "default_popup": "Popup.html"  
+  }
 }
