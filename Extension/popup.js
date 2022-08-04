@@ -7,28 +7,23 @@ function init() {
     var manualButton = document.getElementById("ManualSettings")
     var settingsButton = document.getElementById("settingsButton")
     var aboutButton = document.getElementById("aboutButton")
-    // Buttons colors
+    // Colors
     var theme = document.getElementById("theme");
     var backGroundColor = document.getElementById("bgColor");
     var textColor = document.getElementById("textColor")
     var headerTextColor = document.getElementById("headerTextColor")
     var sellectedItemColor = document.getElementById("sellectedItemColor")
-    //
+    // Block
     var manualSettingsBlock = document.getElementById("manualSettingsBlock");
 
 
     chrome.storage.local.get(["ManualButton"], function (bttn) {
-        manualButton.checked = bttn.ManualButton;
-        if (manualButton.checked)
-        {
-            manualSettingsBlock.style.display = "block";
-            theme.setAttribute('Disabled','')
-        }
+        console.log(bttn.ManualButton)
+        if (bttn.ManualButton)
+            manualButton.checked = bttn.ManualButton;
         else
-        {
-            manualSettingsBlock.style.display = "none";
-            theme.removeAttribute('Disabled','')
-        }
+            manualButton.checked = false;
+        setActiveManualDiv(manualButton, manualSettingsBlock, theme)
     });
     chrome.storage.local.get(["Theme"], function (bttn) {
         if (bttn.Theme)
@@ -85,16 +80,9 @@ function init() {
             return
         }
 
-        chrome.storage.local.set({"BackGroundColor": backGroundColor.value})
-        chrome.storage.local.set({"TextColor": textColor.value})
-        chrome.storage.local.set({"HeaderTextColor": headerTextColor.value})
-        chrome.storage.local.set({"SelectedItem": sellectedItemColor.value})
-        chrome.storage.local.set({"Theme": theme.value})
+        setValueStorageLocal(manualButton, backGroundColor, textColor, headerTextColor, sellectedItemColor, theme)
 
-        backGroundColor.style.color = backGroundColor.value;
-        textColor.style.color = textColor.value;
-        headerTextColor.style.color = headerTextColor.value;
-        sellectedItemColor.style.color = sellectedItemColor.value;
+        setColorTextManualDiv(backGroundColor, textColor, headerTextColor, sellectedItemColor)
 
         alert("If you have a Duolingo tab open, reload the page (f+5) to update the color scheme.");
     }
@@ -107,32 +95,16 @@ function init() {
         theme.value = "dark";
         manualButton.checked = false;
 
-        chrome.storage.local.set({"ManualButton": manualButton.checked})
-        chrome.storage.local.set({"BackGroundColor": backGroundColor.value})
-        chrome.storage.local.set({"TextColor": textColor.value})
-        chrome.storage.local.set({"HeaderTextColor": headerTextColor.value})
-        chrome.storage.local.set({"SelectedItem": sellectedItemColor.value})
-        chrome.storage.local.set({"Theme": theme.value})
+        setValueStorageLocal(manualButton, backGroundColor, textColor, headerTextColor, sellectedItemColor, theme)
 
-        backGroundColor.style.color = backGroundColor.value;
-        textColor.style.color = textColor.value;
-        headerTextColor.style.color = headerTextColor.value;
-        sellectedItemColor.style.color = sellectedItemColor.value;
+        setColorTextManualDiv(backGroundColor, textColor, headerTextColor, sellectedItemColor)
+
+        setActiveManualDiv(manualButton, manualSettingsBlock, theme)
 
         alert("If you have a Duolingo tab open, reload the page (f+5) to update the color scheme.");
     }
     manualButton.onclick = function () {
-        console.log("manual click " + manualButton.checked)
-        if (manualButton.checked)
-        {
-            manualSettingsBlock.style.display = "block";
-            theme.setAttribute('Disabled','')
-        } 
-        else 
-        {
-            manualSettingsBlock.style.display = "none";
-            theme.removeAttribute('Disabled','')
-        }
+        setActiveManualDiv(manualButton, manualSettingsBlock, theme)
         chrome.storage.local.set({"ManualButton": manualButton.checked})
     }
     settingsButton.onclick = function () {
@@ -143,29 +115,53 @@ function init() {
     };
     switchPage(0);
 }
-function switchPage(value){
+
+function switchPage(value) {
     var settingsPanel = document.getElementById("Settings");
     var aboutPanel = document.getElementById("About");
 
     var settingsButton = document.getElementById("settingsButton");
     var aboutButton = document.getElementById("aboutButton");
-    
-    if(value == 0)
-    {
+
+    if (value == 0) {
         aboutPanel.style.display = "none";
         aboutButton.style.background = "none"
-        
+
         settingsPanel.style.display = "block"
         settingsButton.style.background = "#F7B155"
-    }
-    else
-    {
+    } else {
         aboutPanel.style.display = "block";
         aboutButton.style.background = "#FD6E10"
 
         settingsPanel.style.display = "none"
         settingsButton.style.background = "none"
     }
+}
+
+function setActiveManualDiv(manualButton, manualSettingsBlock, theme) {
+    if (manualButton.checked) {
+        manualSettingsBlock.style.display = "block";
+        theme.setAttribute('Disabled', '')
+    } else {
+        manualSettingsBlock.style.display = "none";
+        theme.removeAttribute('Disabled', '')
+    }
+}
+
+function setValueStorageLocal(manualButton, backGroundColor, textColor, headerTextColor, sellectedItemColor, theme) {
+    chrome.storage.local.set({"ManualButton": manualButton.checked})
+    chrome.storage.local.set({"BackGroundColor": backGroundColor.value})
+    chrome.storage.local.set({"TextColor": textColor.value})
+    chrome.storage.local.set({"HeaderTextColor": headerTextColor.value})
+    chrome.storage.local.set({"SelectedItem": sellectedItemColor.value})
+    chrome.storage.local.set({"Theme": theme.value})
+}
+
+function setColorTextManualDiv(backGroundColor, textColor, headerTextColor, sellectedItemColor) {
+    backGroundColor.style.color = backGroundColor.value;
+    textColor.style.color = textColor.value;
+    headerTextColor.style.color = headerTextColor.value;
+    sellectedItemColor.style.color = sellectedItemColor.value;
 }
 
 

@@ -2,13 +2,7 @@
 
 function setBackGroundColor() {
     chrome.storage.local.get(["ManualButton"], function (res) {
-        if (res.ManualButton == null) {
-            console.log("manual button null")
-            return
-        }
-        console.log(res.ManualButton)
-        if (res.ManualButton == true) 
-        {
+        if (res.ManualButton == true) {
             chrome.storage.local.get(["BackGroundColor"], function (bttn) {
                 document.documentElement.style.setProperty('--BackGroundColor', bttn.BackGroundColor);
             });
@@ -21,40 +15,25 @@ function setBackGroundColor() {
             chrome.storage.local.get(["SelectedItem"], function (bttn) {
                 document.documentElement.style.setProperty('--SelectedItem', bttn.SelectedItem);
             });
-        } 
-        else 
-        {
+        } else {
             chrome.storage.local.get(["Theme"], function (res) {
-                if (res.Theme === "blue") 
-                {
-                    document.documentElement.style.setProperty('--BackGroundColor', '#607d8b');
-                    document.documentElement.style.setProperty('--TextColor', 'white');
-                    document.documentElement.style.setProperty('--TextHeaderColor', '#000000');
-                    document.documentElement.style.setProperty('--SelectedItem', '#69b2c8');
-                }
-                else if (res.Theme === "green")   
-                {
-                    document.documentElement.style.setProperty('--BackGroundColor', '#4a7e4a');
-                    document.documentElement.style.setProperty('--TextColor', 'white');
-                    document.documentElement.style.setProperty('--TextHeaderColor', 'black');
-                    document.documentElement.style.setProperty('--SelectedItem', '#37bc8b');
-                }
-                else if (res.Theme === "yellow")
-                {
-                    document.documentElement.style.setProperty('--BackGroundColor', '#9ea24c');
-                    document.documentElement.style.setProperty('--TextColor', 'white');
-                    document.documentElement.style.setProperty('--TextHeaderColor', '#6c3e19');
-                    document.documentElement.style.setProperty('--SelectedItem', '#e05436');
-                }
-                else{
-                    document.documentElement.style.setProperty('--BackGroundColor', '#262626');
-                    document.documentElement.style.setProperty('--TextColor', '#cbcbcb');
-                    document.documentElement.style.setProperty('--TextHeaderColor', '#4e89e3');
-                    document.documentElement.style.setProperty('--SelectedItem', '#484a4e');
+                if (res.Theme === "blue") {
+                    setProperty('#607d8b', 'white', '#000000', '#69b2c8')
+                } else if (res.Theme === "green") {
+                    setProperty('#4a7e4a', 'white', 'black', '#37bc8b')
+                } else if (res.Theme === "yellow") {
+                    setProperty('#9ea24c', 'white', '#6c3e19', '#e05436')
+                } else { // Dark
+                    setProperty('#262626', '#cbcbcb', '#4e89e3', '#484a4e')
                 }
             });
-
-            //document.documentElement.style.setProperty('--BackGroundColor', 'pink');
         }
     });
+}
+
+function setProperty(BackGroundColor, TextColor, TextHeaderColor, SelectedItem) {
+    document.documentElement.style.setProperty('--BackGroundColor', BackGroundColor);
+    document.documentElement.style.setProperty('--TextColor', TextColor);
+    document.documentElement.style.setProperty('--TextHeaderColor', TextHeaderColor);
+    document.documentElement.style.setProperty('--SelectedItem', SelectedItem);
 }
