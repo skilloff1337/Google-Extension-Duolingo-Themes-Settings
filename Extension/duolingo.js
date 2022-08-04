@@ -18,11 +18,11 @@ function setBackGroundColor() {
         } else {
             chrome.storage.local.get(["Theme"], function (res) {
                 if (res.Theme === "blue") {
-                    setProperty('#607d8b', 'white', '#000000', '#69b2c8')
+                    setProperty('#607d8b', '#4a4848', '#000000', '#69b2c8')
                 } else if (res.Theme === "green") {
-                    setProperty('#4a7e4a', 'white', 'black', '#37bc8b')
+                    setProperty('#4a7e4a', '#4a4848', 'black', '#37bc8b')
                 } else if (res.Theme === "yellow") {
-                    setProperty('#9ea24c', 'white', '#6c3e19', '#e05436')
+                    setProperty('#9ea24c', '#4a4848', '#6c3e19', '#e05436')
                 } else if (res.Theme === "white") {
                     setProperty('white', '#afafaf', '#3c3c3c', "#d2d4d6")
                 } else { // Dark
