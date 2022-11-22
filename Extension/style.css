@@ -1,5 +1,6 @@
 ﻿:root {
     --BackGroundColor: #607d8b;
+    --BackGroundColorSecond: #242D3D;
     --TextColor: white;
     --TextHeaderColor: #a9ddfd;
     --SelectedItem: #69b2c8;
@@ -648,10 +649,10 @@ tr:hover {
     color: var(--TextColor) !important;
 }
 ._29e-M{
-    background-color: var(--BackGroundColor) !important;
+    background-color: var(--BackGroundColorSecond) !important;
 }
 ._1KUxv{
-    background-color: var(--BackGroundColor) !important;
+    background-color: var(--BackGroundColorSecond) !important;
 }
 ._2Pb9t{
     color: var(--TextColor) !important;
@@ -665,3 +666,55 @@ tr:hover {
 ._2O14B {
     color: var(--TextColor) !important;
 }
+._2O14B._1v2Gj{
+    color: var(--SelectedItem) !important;
+}
+.SEEvZ{
+    color: var(--TextHeaderColor) !important;
+}
+.zylDf{
+    color: var(--TextHeaderColor) !important;
+}
+._3ET5m .ZzIVh{
+    color: var(--TextHeaderColor) !important;
+}
+._2Y9tM{
+    color: var(--TextHeaderColor) !important; 
+}
+._2BqEp{
+    color: var(--TextColor) !important;
+}
+span{
+    color: var(--TextColor) !important;
+}
+._2fqcw{
+    background-color: var(--BackGroundColorSecond) !important;
+}
+.qI8DF{
+    background-color: var(--BackGroundColorSecond) !important;
+}
+._5CGAu{
+    background-color: var(--BackGroundColorSecond) !important;
+}
+._2zOgU .zylDf{
+    background: var(--BackGroundColorSecond) !important;
+}
+._28V9T _3yAjN{ 
+    color: var(--TextHeaderColor) !important;
+}
+._1UqAr _3Qruy > span {
+    color: var(--TextHeaderColor) !important;
+}
+._28V9T{
+    color: var(--TextColor) !important;
+}
+._3f_Q3{
+    background: var(--BackGroundColorSecond) !important;
+}
+._17nEt{
+    color: var(--TextColor) !important;
+}
+._17nEt:disabled{
+    -webkit-text-fill-color: var(--TextColor) !important;  
+}
+
