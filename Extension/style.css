@@ -4,6 +4,7 @@
     --TextColor: white;
     --TextHeaderColor: #a9ddfd;
     --SelectedItem: #69b2c8;
+    --ButtonColor: #3d3c72;
 }
 
 body {
@@ -744,4 +745,51 @@ span{
 ._2cQin{
     color: var(--TextHeaderColor) !important;
 }
-
+.WOZnx.LhRk3:not(._1rl91):before, .WOZnx:disabled:not(._1rl91):before{
+    background: var(--BackGroundColorSecond) !important;
+}
+.WOZnx.LhRk3:not(._1rl91):before, .WOZnx:disabled:not(._1rl91):before{
+    background: var(--SelectedItem) !important;
+}
+._2NolF.LhRk3:not(._1rl91):before, ._2NolF:disabled:not(._1rl91):before{
+    background-color: var(--ButtonColor) !important;
+}
+.WOZnx:before{
+    background-color: var(--ButtonColor) !important;
+}
+._3C_oC:before{
+    background-color: var(--ButtonColor) !important;
+}
+._1QDX9{
+    background-color: var(--BackGroundColorSecond) !important;
+}
+._2EMUT{
+    color: var(--TextColor) !important;
+}
+._2NolF:before{
+    background-color: var(--ButtonColor) !important;
+}
+._2CuNz{
+    color: var(--TextColor) !important;
+}
+._2SU00{
+    color: var(--TextHeaderColor) !important;
+}
+._2DNvM{
+    color: var(--TextHeaderColor) !important;
+}
+._1QDX9, ._17nEt{
+    color: var(--TextColor) !important;
+}
+label > span{
+    color: var(--TextColor) !important;
+}
+label > input {
+    color: var(--TextColor) !important;
+}
+div > span > ._3gI0Y{
+    color: var(--TextColor) !important;
+}
+._28V9T{
+    color: var(--TextHeaderColor) !important;
+}
