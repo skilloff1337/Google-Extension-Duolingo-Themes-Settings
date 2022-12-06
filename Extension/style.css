@@ -793,3 +793,15 @@ div > span > ._3gI0Y{
 ._28V9T{
     color: var(--TextHeaderColor) !important;
 }
+*, :after, :before, button, button:focus, input, textarea{
+    color: var(--TextColor) !important;
+}
+.-oI84, .KAjTN{
+    background-color: var(--ButtonColor) !important;
+}
+._3vF5k{
+    background-color: var(--BackGroundColorSecond) !important;
+}
+._3e9O1{
+    background-color: var(--BackGroundColorSecond) !important;
+}
