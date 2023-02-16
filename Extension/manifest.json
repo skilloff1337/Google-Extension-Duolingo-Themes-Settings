@@ -1,7 +1,7 @@
 ﻿{
   "manifest_version": 3,
   "name": "Duolingo Themes Settings (DTS)",
-  "version": "1.2.19",
+  "version": "1.2.20",
   "description": "Duolingo Themes Settings - This is an extension that will allow you to change the color scheme on the Duolingo.com.",
   "icons": {
     "128": "Images/duo.png"

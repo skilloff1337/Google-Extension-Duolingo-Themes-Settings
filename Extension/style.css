@@ -10,6 +10,10 @@
 body {
     background-color: var(--BackGroundColor) !important;
 }
+input{
+    background-color: var(--SelectedItem) !important;
+}
+
 ._3ZJK8 {
     background-color: var(--BackGroundColor) !important;
 }
@@ -828,4 +832,19 @@ div ._3ZuGY{
 }
 .vJj1P {
     background: var(--BackGroundColorSecond) !important;
+}
+.Rt0P1{
+    background-color: var(--BackGroundColor) !important;
+}
+._2p1op{
+    background-color: var(--BackGroundColor) !important;
+}
+.InGFc:hover{
+    background-color: var(--SelectedItem) !important;
+}
+.zAIdz {
+    background-color: var(--BackGroundColorSecond) !important; ;
+}
+._1-bWL {
+    background-color: var(--BackGroundColorSecond) !important; ;
 }
