@@ -928,3 +928,13 @@ div ._3ZuGY{
 ._5D3ka{
     background-color: var(--SelectedItem) !important;
 }
+._3gyBG{
+    background-color: var(--BackGroundColor) !important;
+}
+._2rjZr{
+    background-color: var(--BackGroundColorSecond) !important;
+    border: 5px solid rgb(var(--BackGroundColorSecond)) !important;
+}
+._2a3s4{
+    border-radius: 0 !important;
+}
